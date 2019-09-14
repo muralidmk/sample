@@ -33,13 +33,6 @@
       <artifactId>servlet-api</artifactId>
       <scope>provided</scope>
     </dependency>
-    <distributionManagement>
-    <Repository>
-      <id>deployment</id>
-      <name>internal release</name>
-      <url>http://10.1.2.157:8081/repository/maven-release/</url>
-    </Repository>
-  </distributionManagement>
     <dependency>
       <groupId>javax.servlet.jsp</groupId>
       <artifactId>jsp-api</artifactId>
