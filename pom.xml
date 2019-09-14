@@ -28,6 +28,13 @@
       <url>file:///tmp/maven-project-site</url>
     </site>
   </distributionManagement>
+  <distributionManagement>
+    <Repository>
+      <id>deployment</id>
+      <name>internal release</name>
+      <url>http://10.1.2.157:8081/repository/maven-release/</url>
+    </Repository>
+  </distributionManagement>
 
   <build>
     <plugins>
@@ -212,14 +219,6 @@
     <tag>HEAD</tag>
     <url>http://github.com/jleetutorial/maven-project</url>
   </scm>
-
-<distributionManagement>
-    <Repository>
-      <id>deployment</id>
-      <name>internal release</name>
-      <url>http://10.1.2.157:8081/repository/maven-release/</url>
-    </Repository>
-  </distributionManagement>
 
   <prerequisites>
     <maven>3.0.3</maven>
